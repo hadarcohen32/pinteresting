@@ -1,4 +1,6 @@
 Pinteresting::Application.routes.draw do
+  resources :pins
+
   root "pages#home"
  get "projects" => "pages#projects"
  get "travels" => "pages#travels"
