@@ -8,4 +8,12 @@ class PagesController < ApplicationController
   def travels
   end
   
+  def education
+  end
+
+  def social_justice
+  end
+
+  def leadership
+  end
 end

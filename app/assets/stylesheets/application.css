@@ -11,3 +11,33 @@
  *= require_self
  *= require_tree .
  */
+ #container {
+				position: relative;
+				text-align: left;
+				float: left;
+				clear: right;
+				padding: 1%;   	
+}
+#image {
+				width: 40%;
+				height: auto;
+				position: relative;
+				clear:right;
+				float:right;
+				padding: 2%; 
+   }
+
+ #information {
+				position: relative;
+				text-align: left;
+				float: left;
+				clear: right;
+				margin-left: 10%;  
+				border-radius: yellow;
+			}
+#box {
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 5%;
+	background-color: black;
+}

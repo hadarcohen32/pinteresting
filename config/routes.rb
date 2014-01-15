@@ -1,8 +1,11 @@
 Pinteresting::Application.routes.draw do
   resources :pins
 
-  root "pages#home"
+root "pages#home"
  get "projects" => "pages#projects"
+ get "education" => "pages#education"
+ get "leadership" => "pages#leadership"
+ get "social_justice" => "pages#social_justice"
  get "travels" => "pages#travels"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
