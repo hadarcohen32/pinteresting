@@ -36,8 +36,22 @@
 				border-radius: yellow;
 			}
 #box {
-	position: absolute;
-	margin-left: 30%;
-	margin-top: 5%;
-	background-color: black;
+	padding-left: 7%;
+	padding-top: 3%;
+}
+
+#contact {
+padding-top: 3%;
+	clear: both;
+	text-align: center;
+
+}
+#text {
+	clear: none;
+	padding: 3%;
+line-height: 2.0;
+}
+#profile {
+float: left;
+margin:0 50px 0 0;
 }
